@@ -1,0 +1,20 @@
+## Our first github action
+
+## Name of the action
+name: first-gh-action
+
+## Name for the workflow
+run-name: ${{ github.actor }} is learning GitHub Actions
+
+## On what events, this workflow should run
+on: [push]
+
+## List the jobs
+jobs:
+## Name of the job
+  greeting-hello-world:
+    ## information about the runner to run the job
+    runs-on: ubuntu-latest
+    ## List of steps to perform
+    steps:
+      - run: echo "Hello from github action"
