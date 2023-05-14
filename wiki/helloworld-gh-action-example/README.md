@@ -60,3 +60,9 @@ jobs:
 
 ## Commit and push the code to run the action
 
+Once you commit and push the changes, it will run the action and gives you
+detailed explanation. The details can be found [here](https://github.com/brightwave-labs/cicd-tutorials/actions/runs/4971879530/jobs/8896711277).
+
+![img](../../assets/gh-action.png)
+
+Try to explore the marketplace and run some actions.
